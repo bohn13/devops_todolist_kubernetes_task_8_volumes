@@ -4,7 +4,7 @@ kubectl apply -f .infrastructure/namespace.yml
 sleep 2
 
 kubectl apply -f .infrastructure/secret.yml
-kubectl apply -f .infrastructure/confgiMap.yml
+kubectl apply -f .infrastructure/configMap.yml
 
 sleep 2
 
